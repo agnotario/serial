@@ -2,7 +2,9 @@
     "name": "Serial",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "edge-connector": "*",
+        "serial": "*"
     },
     "files": [
         "main.blocks",
@@ -21,5 +23,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
